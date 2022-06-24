@@ -1,0 +1,102 @@
+.topbar {
+  width: 100%;
+  height: 5.5rem;
+  position: sticky;
+  top: 0%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--color-bg);
+  z-index: 100;
+}
+
+.shadow {
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.35);
+}
+
+.topbar__left {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.topbar__left-iconWrap {
+  background: var(--color-dark);
+  height: 100%;
+  padding: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topbar__left-icon {
+  font-size: 2.4rem;
+  color: white;
+}
+
+.topbar__left-menuWrap {
+  height: 100%;
+  padding: 0 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.topbar__left-menuIcon {
+  font-size: 1.5rem;
+}
+
+.topbar__left-menuWrap p {
+  font-size: 12px;
+  position: relative;
+  top: 1px;
+  font-weight: 500;
+}
+
+.topbar__right {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.topbar__right-phone {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  gap: 0.3rem;
+}
+.topbar__right-location {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  gap: 0.3rem;
+}
+.topbar__right-book {
+  background: var(--color-primary);
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  gap: 0.3rem;
+}
+
+.topbar__right-icon {
+  font-size: 18px;
+}
+
+.topbar__right small {
+  position: relative;
+  top: 1px;
+  font-size: 12px;
+}

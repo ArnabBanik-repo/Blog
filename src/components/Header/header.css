@@ -1,0 +1,82 @@
+.header {
+  margin-top: 8rem;
+}
+
+.header__bg {
+  font-family: "Merriweather";
+  z-index: -10;
+  position: fixed;
+  opacity: 0.03;
+  top: -3px;
+  left: 130px;
+  font-size: 28rem;
+}
+
+.header__sideText {
+  font-family: "Merriweather";
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transform: rotate(-90deg);
+  left: -1rem;
+  top: 30rem;
+  position: absolute;
+}
+
+.header__sideText::before {
+  content: "";
+  width: 3rem;
+  height: 1px;
+  background: black;
+}
+
+.header__content {
+  font-family: "Merriweather";
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.header__icon {
+  font-size: 2.8rem;
+}
+
+.header__content h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.header__content p {
+  font-size: 0.75rem;
+  font-family: "Lora", serif;
+}
+
+.header__image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.header__image img {
+  width: 80rem;
+  height: 45rem;
+}
+
+.author-image {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.author-image img {
+  border-radius: 50%;
+}
+
+.author-content {
+  text-align: center;
+  font-size: 13px;
+}

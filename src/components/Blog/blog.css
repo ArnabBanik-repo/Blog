@@ -1,0 +1,41 @@
+.blog__container {
+  margin-top: 4rem;
+}
+.title {
+  margin: 2rem auto;
+  font-family: "Merriweather";
+  font-size: 2.1rem;
+  font-weight: 600;
+  width: 60%;
+}
+.para {
+  color: var(--color-dark);
+  opacity: 0.6;
+  margin: 3rem auto 2rem;
+  font-family: "Merriweather";
+  font-size: 17px;
+  width: 60%;
+}
+.para a:hover {
+  opacity: 1;
+  color: red;
+}
+
+.blog-img {
+  width: 60%;
+  margin: 4rem auto 7rem;
+}
+
+.blog-img img {
+  height: 80%;
+}
+
+.tags {
+  width: 60%;
+  margin: 2rem auto;
+  font-size: 13px;
+}
+
+.tags a {
+  margin-left: 0.2rem;
+}
