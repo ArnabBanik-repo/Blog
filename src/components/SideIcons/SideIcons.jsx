@@ -5,6 +5,10 @@ import "./sideicons.css";
 const SideIcons = () => {
   return (
     <div className="sideicons">
+      <div className="date">
+        <h1>23</h1>
+        <small>OCT, 17</small>
+      </div>
       <div className="icon">
         <FaFacebookF />
       </div>

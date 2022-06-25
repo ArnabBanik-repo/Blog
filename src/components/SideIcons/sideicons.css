@@ -1,6 +1,24 @@
 .sideicons {
-  position: absolute;
-  left: 21rem;
+  position: relative;
+  /* left: 21vw; */
+  /* top: 0rem; */
+}
+
+.sideicons .date {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 1.7rem;
+  font-family: "Lora";
+  padding: 1rem 0;
+  border-top: 3px solid var(--color-primary);
+}
+
+.sideicons h1 {
+  line-height: 0.8;
+}
+
+.sideicons small {
+  opacity: 0.7;
 }
 
 .sideicons .icon {
@@ -12,8 +30,11 @@
   align-items: center;
   margin-bottom: 1rem;
   font-size: 1.2rem;
+  cursor: pointer;
+  transition: var(--transition);
 }
 
 .sideicons .icon:hover {
-  background: var(--color-bg);
+  background: var(--color-dark);
+  color: #fff;
 }

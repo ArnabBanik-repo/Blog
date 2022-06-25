@@ -1,12 +1,23 @@
 .blog__container {
   margin-top: 4rem;
+  display: flex;
 }
+
+.blog__icons {
+  /* background: red; */
+  margin-top: 2.2rem;
+}
+
+.blog__content {
+  width: 60%;
+  margin: 0 auto;
+}
+
 .title {
   margin: 2rem auto;
   font-family: "Merriweather";
   font-size: 2.1rem;
   font-weight: 600;
-  width: 60%;
 }
 .para {
   color: var(--color-dark);
@@ -14,7 +25,6 @@
   margin: 3rem auto 2rem;
   font-family: "Merriweather";
   font-size: 17px;
-  width: 60%;
 }
 .para a:hover {
   opacity: 1;
@@ -22,7 +32,6 @@
 }
 
 .blog-img {
-  width: 60%;
   margin: 4rem auto 7rem;
 }
 
@@ -31,11 +40,38 @@
 }
 
 .tags {
-  width: 60%;
   margin: 2rem auto;
   font-size: 13px;
 }
 
 .tags a {
   margin-left: 0.2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 1.6rem;
+  }
+  .blog__content {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .blog__icons {
+    display: none;
+  }
+  .title {
+    font-size: 1.3rem;
+    margin: 1rem auto;
+  }
+  .para {
+    font-size: 13px;
+    margin: 1.5rem auto;
+  }
+  .blog__content {
+    width: 100%;
+  }
+  .blog-img {
+    margin: 1rem auto 3rem;
+  }
 }
